@@ -3,7 +3,7 @@ import { axiosWithAuth } from "../utils/axiosWithAuth";
 
 const initialColor = {
   color: "",
-  code: { hex: "" }
+  code: { hex: "#" }
 };
 
 const ColorList = ({ colors, updateColors }) => {
